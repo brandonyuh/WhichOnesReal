@@ -1,0 +1,19 @@
+{
+  "name": "whichonesreal",
+  "version": "1.0.0",
+  "description": "Figure out which of the two is real!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonyuh/WhichOnesReal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonyuh/WhichOnesReal/issues"
+  },
+  "homepage": "https://github.com/brandonyuh/WhichOnesReal#readme"
+}
