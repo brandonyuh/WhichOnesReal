@@ -8,7 +8,7 @@
   {
     "id": "2",
     "lefturl": "http://localhost:9090/images/amazon-real.webp",
-    "righturl": "http://localhost:9090/images/amozon-fake.webp",
+    "righturl": "http://localhost:9090/images/amazon-fake.webp",
     "isleftcorrect": true
   },
   {
