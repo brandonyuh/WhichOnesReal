@@ -10,7 +10,7 @@ router.put("/:id", (req, res) => {
   } else {
     data[id]++;
   }
-  fs.writeFileSync("./data/data.json", JSON.stringify(data), (err) => {});
+  fs.writeFileSync("./data/vote.json", JSON.stringify(data), (err) => {});
   res.send(`vote for ${id} increasing it to ${data[id]}`);
 });
 
@@ -28,7 +28,7 @@ router.delete("/:id", (req, res) => {
   const result = 0;
   if (data[id]) {
     data[id] = 0;
-    fs.writeFileSync("./data/data.json", "{}", (err) => {});
+    fs.writeFileSync("./data/vote.json", "{}", (err) => {});
   }
   res.send(`${result}`);
 });
