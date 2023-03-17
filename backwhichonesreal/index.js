@@ -1,5 +1,6 @@
 const express = require("express");
 const questions = require("./routes/questions");
+const voteRoutes = require("./routes/vote");
 const port = 9090;
 const app = express();
 const cors = require("cors");
@@ -17,6 +18,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/questions", questions);
+app.use("/vote", voteRoutes);
 
 app.get("/", (req, res) => {
   res.send("i got it");
