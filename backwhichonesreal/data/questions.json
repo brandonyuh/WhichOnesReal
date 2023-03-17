@@ -1,1 +1,8 @@
-[{}]
+[
+  {
+    "id": "1",
+    "lefturl": "http://localhost:9090/images/insta-fake.webp",
+    "righturl": "http://localhost:9090/images/insta-real.webp",
+    "isleftcorrect": false
+  }
+]
