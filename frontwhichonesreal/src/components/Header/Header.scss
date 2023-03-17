@@ -2,8 +2,23 @@
 &__container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 &__title{
-
+    font-size: 4rem;
 }
+}
+.qr{
+    width: 10rem;
+}
+
+.label{
+    font-weight: 600;
+}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
