@@ -32,3 +32,10 @@
   box-shadow: 0 0 5px #4176e1, 0 0 25px #4176e1, 0 0 50px #4176e1, 0 0 200px #4176e1;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
+
+.vote__chart{
+   height: 30rem;
+   position: absolute;
+   top:2rem;
+   left:2rem;
+}
