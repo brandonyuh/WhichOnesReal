@@ -28,10 +28,14 @@ function AdminVote() {
   };
   return (
     <>
-      <h1>Results</h1>
-      <span>Left:{left}</span> <span>Right:{right}</span>
+      <div className="container">
+      <h1 className="title">Results</h1>
+
+      <span className="span">Left: {left}</span> <span className="span">Right: {right}</span>
+      
       <div>
-        <button onClick={resetNumbers}>Reset</button>
+        <button className = "btn" onClick={resetNumbers}>Reset</button>
+      </div>
       </div>
     </>
   );

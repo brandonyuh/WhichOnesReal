@@ -59,18 +59,23 @@ function Cards() {
   return (
     prop?
     <>
-      <div className="button__container">
-        <button className="button" onClick={handleRes}>
-          Restart
-        </button>
-      </div>
       <div className="card__container">
         <div className="card" id="leftcard" onClick={() => handleClick("left")}>
           <img className="card__img" src={prop[counter].lefturl} alt="" />
         </div>
         <div className="score__container">
+      <div className="button__container">
+        <button className="button-red" onClick={handleRes}>
+          Restart
+        </button>
+      </div>
           <div className="card-score">Score: {score}</div>
           <div className="verdict">{verdict}</div>
+      <div className="button__container">
+        <button className="button" onClick={handleNext}>
+          Next
+        </button>
+      </div>
         </div>
         <div
           className="card"
@@ -79,11 +84,6 @@ function Cards() {
         >
           <img className="card__img" src={prop[counter].righturl} alt="" />
         </div>
-      </div>
-      <div className="button__container">
-        <button className="button" onClick={handleNext}>
-          NEXT
-        </button>
       </div>
     </>
     :""
