@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Cards from "./components/Cards/Cards";
 import AdminVote from "./components/AdminVote/AdminVote";
 import ClientVote from "./components/ClientVote/ClientVote";
+import "./App.scss"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
