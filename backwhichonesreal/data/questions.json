@@ -4,5 +4,131 @@
     "lefturl": "http://localhost:9090/images/insta-fake.webp",
     "righturl": "http://localhost:9090/images/insta-real.webp",
     "isleftcorrect": false
+  },
+  {
+    "id": "2",
+    "lefturl": "http://localhost:9090/images/amazon-real.webp",
+    "righturl": "http://localhost:9090/images/amozon-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "3",
+    "lefturl": "http://localhost:9090/images/apple-real.webp",
+    "righturl": "http://localhost:9090/images/apple-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "4",
+    "lefturl": "http://localhost:9090/images/bk-fake.webp",
+    "righturl": "http://localhost:9090/images/bk-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "5",
+    "lefturl": "http://localhost:9090/images/bmw-real.webp",
+    "righturl": "http://localhost:9090/images/bmw-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "6",
+    "lefturl": "http://localhost:9090/images/coke-fake.webp",
+    "righturl": "http://localhost:9090/images/coke-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "7",
+    "lefturl": "http://localhost:9090/images/dominos-fake.webp",
+    "righturl": "http://localhost:9090/images/dominos-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "8",
+    "lefturl": "http://localhost:9090/images/google-real.webp",
+    "righturl": "http://localhost:9090/images/google-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "9",
+    "lefturl": "http://localhost:9090/images/hp-fake.webp",
+    "righturl": "http://localhost:9090/images/hp-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "10",
+    "lefturl": "http://localhost:9090/images/ibm-real.webp",
+    "righturl": "http://localhost:9090/images/ibm-true.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "11",
+    "lefturl": "http://localhost:9090/images/kfc-fake.webp",
+    "righturl": "http://localhost:9090/images/kfc-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "12",
+    "lefturl": "http://localhost:9090/images/levis-fake.webp",
+    "righturl": "http://localhost:9090/images/levis-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "13",
+    "lefturl": "http://localhost:9090/images/lg-real.webp",
+    "righturl": "http://localhost:9090/images/lg-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "14",
+    "lefturl": "http://localhost:9090/images/microsoft-real.webp",
+    "righturl": "http://localhost:9090/images/microsoft-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "15",
+    "lefturl": "http://localhost:9090/images/mtv-real.webp",
+    "righturl": "http://localhost:9090/images/mtv-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "16",
+    "lefturl": "http://localhost:9090/images/nasa-fake.webp",
+    "righturl": "http://localhost:9090/images/nasa-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "17",
+    "lefturl": "http://localhost:9090/images/nike-fake.webp",
+    "righturl": "http://localhost:9090/images/nike-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "18",
+    "lefturl": "http://localhost:9090/images/playboy-real.webp",
+    "righturl": "http://localhost:9090/images/playboy-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "19",
+    "lefturl": "http://localhost:9090/images/rolex-fake.webp",
+    "righturl": "http://localhost:9090/images/rolex-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "20",
+    "lefturl": "http://localhost:9090/images/shell-fake.webp",
+    "righturl": "http://localhost:9090/images/shell-real.webp",
+    "isleftcorrect": false
+  },
+  {
+    "id": "21",
+    "lefturl": "http://localhost:9090/images/starbucks-real.webp",
+    "righturl": "http://localhost:9090/images/starbucks-fake.webp",
+    "isleftcorrect": true
+  },
+  {
+    "id": "22",
+    "lefturl": "http://localhost:9090/images/twitter-fake.webp",
+    "righturl": "http://localhost:9090/images/twitter-real.webp",
+    "isleftcorrect": false
   }
 ]
