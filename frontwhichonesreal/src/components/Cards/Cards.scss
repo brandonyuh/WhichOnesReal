@@ -7,7 +7,7 @@
    justify-content: center;
    object-fit: cover;
    padding: 1rem;
-   width: 20rem;
+   width: 30rem;
    height: 25rem;
 
 
@@ -20,14 +20,31 @@
    &-score {
       display: flex;
       align-items: center;
+      padding: 3rem 0 0 0 ;
+      font-size: 2rem;
    }
 
    &__img {
       object-fit: cover;
       width: 100%;
    }
+}
 
+.card:hover{
+   background-color: rgb(199, 199, 199);
+   cursor: pointer;
+}
 
+.verdict{
+   font-size: 7rem;
+   padding: 1rem 0 3rem 0;
+}
+
+.score__container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .left-verdict {
@@ -58,22 +75,41 @@
    &__container {
       display: flex;
       justify-content: center;
+      align-items: center;
    }
 
-   background-color: #4CAF50;
+   padding: 25px 30px;
+   background-color: #050801;
+   color: #4CAF50;
+   font-weight: bold;
    border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 8px;
-   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-   transition: box-shadow 0.3s ease-in-out;
-}
+   font-size:1.2rem;
+   border-radius: 5px;
+   letter-spacing: 3px;
+   overflow: hidden;
+   transition: 0.5s;
+   cursor: pointer;
+ }
+ .button:hover{
+     background: #4CAF50;
+     color: #050801;
+     box-shadow: 0 0 5px #4CAF50,
+                 0 0 25px #4CAF50,
+                 0 0 50px #4CAF50,
+                 0 0 200px #4CAF50;
+      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+ }
 
-.button:hover {
-   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
-   transform: translateY(-2px);
-}
+ .button-red{
+@extend .button;
+color: #af4c4c;
+ }
+
+ .button-red:hover{
+   @extend .button;
+   background: #af4c4c;
+   box-shadow: 0 0 5px #af4c4c,
+               0 0 25px #af4c4c,
+               0 0 50px #af4c4c,
+               0 0 200px #af4c4c;
+    }
