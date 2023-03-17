@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Cards from "./components/Cards/Cards";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
-  <><div>hello world</div></>
+  <>
+  <Header />
+  <Cards/>
+  <Button/>
+  </>
   );
 }
 
-export default App;
+export default App; 
