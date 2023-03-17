@@ -102,14 +102,14 @@
 
  .button-red{
 @extend .button;
-color: #af4c4c;
+color: #ed3838;
  }
 
  .button-red:hover{
    @extend .button;
-   background: #af4c4c;
-   box-shadow: 0 0 5px #af4c4c,
-               0 0 25px #af4c4c,
-               0 0 50px #af4c4c,
-               0 0 200px #af4c4c;
+   background: #ed3838;
+   box-shadow: 0 0 5px #ed3838,
+               0 0 25px #ed3838,
+               0 0 50px #ed3838,
+               0 0 200px #ed3838;
     }
