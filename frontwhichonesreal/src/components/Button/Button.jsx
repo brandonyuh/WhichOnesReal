@@ -5,7 +5,9 @@ import './Button.scss';
 
 function Button() {
   return (
-    <button className='button'>Button</button>
+    <div className='button__container'>
+      <button className='button'>NEXT</button>
+    </div>
   )
 }
 
