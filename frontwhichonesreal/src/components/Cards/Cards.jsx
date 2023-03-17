@@ -6,6 +6,7 @@ function Cards() {
   let [score, setScore] = useState(0);
   let [verdict, setVerdict] = useState("");
   let [prop, setProp] = useState(null)
+  let [counter, setCounter] = useState(0)
 
   function getQuestions() {
     axios.get("http://localhost:9090/questions").then((res) => {
@@ -14,14 +15,13 @@ function Cards() {
   }
 
 
-  let counter = 0;
-
   getQuestions()
   
   function handleNext() {
     setVerdict("");
-    counter = counter + 1;
-    return prop[counter];
+    
+    setCounter((prevCounter) => prevCounter + 1)
+    
   }
 
 
@@ -41,17 +41,17 @@ function Cards() {
   }
   function handleClick(cardClicked) {
     if (
-      (prop.isleftcorrect === true && cardClicked === "left") ||
-      (prop.isleftcorrect === false && cardClicked === "right")
+      (prop[counter].isleftcorrect === true && cardClicked === "left") ||
+      (prop[counter].isleftcorrect === false && cardClicked === "right")
     ) {
       const newScore = score + 1;
       setScore(newScore);
-      setVerdict(":white_check_mark:");
+      setVerdict("✅");
       localStorage.setItem("score", newScore);
       console.log(verdict);
       return score;
     } else {
-      setVerdict(":x:");
+      setVerdict("❌");
       console.log(verdict);
       return;
     }
